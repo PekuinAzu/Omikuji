@@ -11,9 +11,7 @@ username = prompt("お名前を教えてください。");
 
 // 文字が入力されなかったときは「名無し」と表示する処理
 if(username === ""){
-    document.getElementById("name").innerHTML = "名無し"
-}else if(username === null){
-    username = prompt("再度入力してください。");
+    document.getElementById("name").innerHTML = "名無し";
 }else{
 document.getElementById("name").innerHTML = username;
 }
